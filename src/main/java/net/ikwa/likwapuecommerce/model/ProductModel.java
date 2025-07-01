@@ -17,6 +17,7 @@ public class ProductModel {
     private String productName ;
     private String productDescription ;
     private String productPrice ;
+    private String imageUrl;
 
     public String getProductName() {
         return productName;
@@ -40,5 +41,11 @@ public class ProductModel {
 
     public void setProductPrice(String productPrice) {
         this.productPrice = productPrice;
+    }
+    public String getImageUrl() {
+        return imageUrl;
+    }
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
     }
 }

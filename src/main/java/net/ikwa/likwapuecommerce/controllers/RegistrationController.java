@@ -12,7 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 
-@CrossOrigin(origins = "https://throwback-tee-gfk4.vercel.app")
+@CrossOrigin(origins = "https://laceand-legacy1.vercel.app/")
 @RestController
 @RequestMapping("/api/registration")
 public class RegistrationController {
